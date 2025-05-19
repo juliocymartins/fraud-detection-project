@@ -15,7 +15,7 @@ ENV/
 
 # Data files
 # *.csv
-# *.xlsx
+*.xlsx
 
 # Model files
 # *.pkl
@@ -31,3 +31,6 @@ ENV/
 # IDEs
 .vscode/
 .idea/
+
+# Data size is too big
+notebooks/creditcard.csv

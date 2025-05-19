@@ -41,7 +41,7 @@ def set_background(image_file):
     st.markdown(css, unsafe_allow_html=True)
 
 
-set_background("background_fraud.jpg")  # put the image name that is in the app folder
+set_background("app/background_fraud.jpg")  # put the image name that is in the app folder
 
 # ======== CONTINUE YOUR NORMAL APP BELOW ========
 
