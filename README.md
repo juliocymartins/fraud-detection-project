@@ -20,7 +20,7 @@ This dataset presents transactions that occurred in two days, where we have 492 
 
 It contains only numerical input variables which are the result of a PCA transformation. Unfortunately, due to confidentiality issues, we cannot provide the original features and more background information about the data.
 
-# 📘 How to Use the App
+# How to Use the App
 
 1. **Adjust the Input Settings**  
    Use the sidebar to fill in customer data, such as **tenure**, **monthly charges**, **internet services**, and **contract type**.
