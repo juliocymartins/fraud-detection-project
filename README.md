@@ -23,19 +23,21 @@ It contains only numerical input variables which are the result of a PCA transfo
 # How to Use the App
 
 1. **Adjust the Input Settings**  
-   Use the sidebar to fill in customer data, such as **tenure**, **monthly charges**, **internet services**, and **contract type**.
+   Use the sidebar to fill in transaction details, such as **amount**, and other relevant features from the dataset.
 
 2. **Predict**  
-   - Click **Predict** to generate a churn prediction based on the current input values.  
-   - The result will indicate whether the customer is likely to **churn** or **stay**, along with the **probability**.
+   - Click **Predict** to generate a fraud prediction based on the current input values.  
+   - The result will indicate whether the transaction is likely to be **fraudulent** or **legitimate**.
 
-3. **Test with Churn Data**  
-   - Click **Test with Churn Data** to auto-fill the form with a real example of a customer who **left**.  
-   - The app will automatically run a prediction using this example.
+3. **Test with Fraud Data**  
+   - Click **Test with Fraud Data** to auto-fill the form with a real example of a **fraudulent** transaction.  
+   - The app will automatically run a prediction using this example.  
+   - These data points were **not used during model training** and serve as an independent test case.
 
-4. **Test with Non-Churn Data**  
-   - Click **Test with Non-Churn Data** to auto-fill the form with a real example of a customer who **did not churn**.  
-   - The app will show the prediction result accordingly.
+4. **Test with Non-Fraud Data**  
+   - Click **Test with Non-Fraud Data** to auto-fill the form with a real example of a **legitimate** transaction.  
+   - The app will show the prediction result accordingly.  
+   - These data points were **not used during model training** and serve as an independent test case.
 
 # Repository Files
 - **app/**: Contains the application files.
