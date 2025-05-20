@@ -9,7 +9,6 @@ This folder contains the full machine learning development process for detecting
   - Feature Engineering
   - Model comparison
   - Final pipeline creation
-  - Exporting the model with joblib
 - `fraud_project.py`: Script version of the notebook for faster execution and exporting the model pipeline as `fraud_rf_model.pkl`.
 - `fraud_test_datasets.ipynb`: Notebook used to filter and generate testing datasets for app evaluation:
   - `test_fraud_yes.xlsx`
@@ -18,4 +17,10 @@ This folder contains the full machine learning development process for detecting
 
 ## How to Use
 
-You can open and run the notebooks in your preferred environment (JupyterLab, VSCode, Google Colab, etc). Make sure the dataset is available and the required packages are installed.
+1. **Download the Dataset**  
+   - First, download the dataset from [Kaggle - Credit Card Fraud Detection](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud).
+   - Place the downloaded `creditcard.csv` file in the same folder as the notebooks.
+
+2. **Run the Notebooks**  
+   - Open and run the notebooks in your preferred environment (JupyterLab, VSCode, Google Colab, etc).
+   - Ensure all required Python packages are installed (e.g., `pandas`, `scikit-learn`, `matplotlib`, etc).
