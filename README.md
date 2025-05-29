@@ -23,7 +23,7 @@ It contains only numerical input variables which are the result of a PCA transfo
 # How to Use the App
 
 1. **Adjust the Input Settings**  
-   Use the dropdown menus to fill in transaction details, such as **amount**, and other relevant features from the dataset.
+   Use the value selection menus to fill in transaction details, such as **amount**, and other relevant features from the dataset.
 
 2. **Predict**  
    - Click **Predict** to generate a fraud prediction based on the current input values.  
